@@ -1,0 +1,24 @@
+.certificates-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #dbe4ee;
+}
+.certificates-container {
+  max-width: 600px;
+  margin: 60px auto;
+}
+.all-certificates {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  overflow: hidden;
+}
+.all-certificates {
+  position: relative;
+
+  img {
+    height: 350px;
+    padding: 20px;
+    overflow: hidden;
+  }
+}

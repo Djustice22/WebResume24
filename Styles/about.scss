@@ -1,0 +1,29 @@
+.about-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .about-section-container {
+    background-color: #dbe4ee;
+    width: 85%;
+    margin: 1em;
+    border: solid 1px #dbe4ee;
+    border-radius: 125px 5px;
+    border: #bcbcbd 0.01em solid;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.1);
+    padding: 0.1em;
+
+    h1 {
+      padding: 15px 0 0 55px;
+      color: #000000;
+      font-size: 3em;
+    }
+    p {
+      text-align: justify;
+      padding: 0 45px 25px 55px;
+      letter-spacing: 0.03em;
+      font-weight: 300;
+      font-size: 1.2em;
+    }
+  }
+}

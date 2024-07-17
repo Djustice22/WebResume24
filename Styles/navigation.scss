@@ -1,0 +1,99 @@
+$navLinkPadding: 10px;
+
+.navigation-bar-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+  .links-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4em;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 2.5em;
+      padding: $navLinkPadding 50px;
+      transition: all 0.55s;
+      &:hover {
+        letter-spacing: 10px;
+      }
+    }
+  }
+}
+
+//MIDDLE SECTION STUFF//
+
+.middle-section-wrapper {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  background-color: #3e7cb1;
+  .main-sidebar-links-container {
+    width: 50%;
+  }
+  .developer-image-wrapper img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 60px;
+    box-shadow: 0 2px 4px rgb(200, 197, 196);
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .tech-wrapper-img {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      opacity: 0.3;
+      transition: height 0.5s ease;
+    }
+  }
+  .overlay-name {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 6em;
+  }
+  .overlay-title {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    font-size: 2em;
+  }
+  .links-for-certs-and-projects {
+    margin-top: 40px;
+    font-size: 1.8em;
+    .certificates,
+    .projects {
+      padding: 5px;
+    }
+  }
+  .email-phone-wrapper {
+    .email,
+    .phone {
+      padding-top: 10px;
+      font-size: 1.2em;
+    }
+  }
+
+  .linked-in-wrapper,
+  .pdf-download-of-resume {
+    margin: 55px;
+    font-size: 1.8em;
+    i {
+      font-size: 2em;
+    }
+  }
+}

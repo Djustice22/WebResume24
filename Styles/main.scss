@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0%;
+  background-color: #ffffff;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  a {
+    color: #444444;
+    text-decoration: none;
+    font-weight: 300;
+
+    &:visited {
+      color: #adadad;
+    }
+    &:hover {
+      text-decoration: none;
+      letter-spacing: 0.1em;
+      transition: all 0.55s;
+    }
+
+    .header-wrapper {
+      width: fit-content;
+      margin: 1em;
+    }
+  }
+  h4 {
+    text-align: center;
+    margin: 0%;
+    padding: 0.2em;
+    color: #fefefe;
+  }
+  h6 {
+    padding: 0 2% 0 10%;
+    margin: 0%;
+    padding-bottom: 0.6em;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  li {
+    font-weight: 300;
+  }
+}

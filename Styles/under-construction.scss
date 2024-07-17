@@ -1,0 +1,28 @@
+.projects-wrapper {
+  width: 100%;
+  text-align: center;
+  .all-projects {
+    position: relative;
+    width: 100%;
+  }
+}
+
+.all-projects img {
+  width: 100%;
+  height: auto;
+  padding-top: 3em;
+  max-height: 800px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.text-overlay1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+}
